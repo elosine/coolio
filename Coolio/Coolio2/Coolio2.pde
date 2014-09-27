@@ -1,11 +1,13 @@
+//COOLIO2
+
 int topmargincompinsation = -45;
+
 void setup(){
   size(1920, 1080);
   smooth();
 }
 
 void draw(){
-  
   stroke(255, 0, 0);
   line(0, 236+topmargincompinsation , width, 236+topmargincompinsation);
   line(0, 261+topmargincompinsation , width, 261+topmargincompinsation);
@@ -24,7 +26,6 @@ void draw(){
   line(0, 807+topmargincompinsation , width, 807+topmargincompinsation);
   line(0, 832+topmargincompinsation , width, 832+topmargincompinsation);
   line(0, 906+topmargincompinsation , width, 906+topmargincompinsation);
-  
 }
 
 
